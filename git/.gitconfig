@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[init]
+	defaultBranch = main
+[hub]
+        protocol = https
+[credential]
+        helper = store
+[push]
+        default = current
+[pull]
+        rebase = true
+[fetch]
+        prune = true
+[user]
+	name = janessatran
+	email = tranjanessa@gmail.com
